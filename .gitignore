@@ -1,0 +1,138 @@
+# ==========================================
+# Python & Environment
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ==========================================
+# Secrets & Configurations (CRITICAL)
+# ==========================================
+.env
+.env.*
+!.env.example
+secrets.json
+*.pem
+*.key
+credentials/
+.streamlit/secrets.toml
+
+# ==========================================
+# Data Files (Dataset Raw / Processed)
+# Jangan push dataset besar ke GitHub
+# ==========================================
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/interim/*
+!data/interim/.gitkeep
+data/external/*
+!data/external/.gitkeep
+
+# Ekstensi file data umum
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.jsonl
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# ==========================================
+# Trained ML Models & Weights
+# ==========================================
+ml/models/*
+!ml/models/.gitkeep
+models/*
+!models/.gitkeep
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.onnx
+*.bin
+*.weights
+*.ckpt
+
+# ==========================================
+# Jupyter Notebooks & Caches
+# ==========================================
+.ipynb_checkpoints
+*-checkpoint.ipynb
+
+# ==========================================
+# Database & Logs
+# ==========================================
+*.log
+logs/
+*.sqlite
+*.sqlite3
+*.db
+
+# ==========================================
+# Testing & Coverage
+# ==========================================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# ==========================================
+# IDE & Code Editors
+# ==========================================
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+
+# ==========================================
+# OS Generated Files
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini

@@ -5,9 +5,33 @@ scikit-learn
 matplotlib
 seaborn
 plotly
+
+# API & Web
 fastapi
 uvicorn
 sqlalchemy
 pydantic
 python-dotenv
+
+# Database
+psycopg2-binary
+
+# Excel & File IO
+openpyxl
+
+# Forecasting & ML
+xgboost
+lightgbm
+prophet
+
+# Optional: faster dataframe
+polars
+
+# Dashboard
+dash
+streamlit
+
+# Dev & Testing
 pytest
+jupyter
+ipykernel
