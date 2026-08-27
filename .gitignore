@@ -44,32 +44,13 @@ credentials/
 .streamlit/secrets.toml
 
 # ==========================================
-# Data Files (Dataset Raw / Processed)
-# Jangan push dataset besar ke GitHub
+# Data Files (Dataset diizinkan untuk di-push)
+# Catatan: Jika ada file dataset > 100MB di masa mendatang,
+# tambahkan ke sini atau gunakan Git LFS.
 # ==========================================
-data/raw/*
-!data/raw/.gitkeep
-data/processed/*
-!data/processed/.gitkeep
-data/interim/*
-!data/interim/.gitkeep
-data/external/*
-!data/external/.gitkeep
+# *.zip
+# *.tar.gz
 
-# Ekstensi file data umum
-*.csv
-*.tsv
-*.xlsx
-*.xls
-*.parquet
-*.feather
-*.h5
-*.hdf5
-*.jsonl
-*.zip
-*.tar.gz
-*.rar
-*.7z
 
 # ==========================================
 # Trained ML Models & Weights
