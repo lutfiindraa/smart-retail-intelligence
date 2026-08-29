@@ -106,10 +106,10 @@ def generate_inventory() -> pd.DataFrame:
         .astype(int)
     )
 
-    # Base stock per product
+        # Base stock
     product_base_stock = {
         product_id: int(
-            rng.integers(30, 150)
+            rng.integers(20, 100)
         )
         for product_id in products["product_id"]
     }
@@ -119,17 +119,12 @@ def generate_inventory() -> pd.DataFrame:
         .map(product_base_stock)
     )
 
-    # Opening stock dibuat berdasarkan kebutuhan
     inventory["opening_stock"] = (
         inventory["base_stock"]
-        + inventory["sold_quantity"] * 2
-        + rng.integers(
-            0,
-            30,
-            size=len(inventory),
-        )
+        + rng.integers(0, 30, size=len(inventory))
     )
 
+    # 20% kemungkinan menerima stok
     inventory["received_stock"] = (
         rng.binomial(
             n=1,
@@ -137,8 +132,8 @@ def generate_inventory() -> pd.DataFrame:
             size=len(inventory),
         )
         * rng.integers(
-            20,
-            100,
+            10,
+            60,
             size=len(inventory),
         )
     )
