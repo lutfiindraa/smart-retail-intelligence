@@ -1,0 +1,544 @@
+date,location,temperature,rainfall_mm,weather_condition
+2023-01-01,Astoria,5.91,0.0,Clear
+2023-01-01,Lower Manhattan,7.25,7.7,Cloudy
+2023-01-01,Hell's Kitchen,-0.85,0.0,Clear
+2023-01-02,Astoria,5.38,1.42,Clear
+2023-01-02,Lower Manhattan,4.95,0.0,Clear
+2023-01-02,Hell's Kitchen,7.64,6.89,Cloudy
+2023-01-03,Astoria,5.2,8.64,Rain
+2023-01-03,Lower Manhattan,6.4,0.0,Clear
+2023-01-03,Hell's Kitchen,6.11,0.0,Clear
+2023-01-04,Astoria,7.64,2.75,Cloudy
+2023-01-04,Lower Manhattan,4.45,0.0,Clear
+2023-01-04,Hell's Kitchen,8.67,2.23,Cloudy
+2023-01-05,Astoria,3.72,1.24,Clear
+2023-01-05,Lower Manhattan,6.6,4.83,Cloudy
+2023-01-05,Hell's Kitchen,6.24,5.15,Cloudy
+2023-01-06,Astoria,11.42,0.97,Clear
+2023-01-06,Lower Manhattan,3.46,0.0,Clear
+2023-01-06,Hell's Kitchen,6.85,8.64,Rain
+2023-01-07,Astoria,4.66,0.0,Clear
+2023-01-07,Lower Manhattan,2.53,6.25,Cloudy
+2023-01-07,Hell's Kitchen,7.23,5.72,Cloudy
+2023-01-08,Astoria,3.0,4.16,Cloudy
+2023-01-08,Lower Manhattan,5.35,4.09,Cloudy
+2023-01-08,Hell's Kitchen,7.61,4.12,Cloudy
+2023-01-09,Astoria,7.04,3.34,Cloudy
+2023-01-09,Lower Manhattan,5.87,6.16,Cloudy
+2023-01-09,Hell's Kitchen,0.63,1.4,Clear
+2023-01-10,Astoria,3.59,0.0,Clear
+2023-01-10,Lower Manhattan,4.17,10.47,Rain
+2023-01-10,Hell's Kitchen,2.4,7.84,Cloudy
+2023-01-11,Astoria,-0.05,1.33,Clear
+2023-01-11,Lower Manhattan,5.49,5.93,Cloudy
+2023-01-11,Hell's Kitchen,7.13,6.97,Cloudy
+2023-01-12,Astoria,3.95,0.69,Clear
+2023-01-12,Lower Manhattan,7.57,2.04,Cloudy
+2023-01-12,Hell's Kitchen,1.17,0.0,Clear
+2023-01-13,Astoria,2.24,5.49,Cloudy
+2023-01-13,Lower Manhattan,5.43,6.45,Cloudy
+2023-01-13,Hell's Kitchen,3.72,3.79,Cloudy
+2023-01-14,Astoria,6.88,1.45,Clear
+2023-01-14,Lower Manhattan,6.37,0.0,Clear
+2023-01-14,Hell's Kitchen,3.91,1.09,Clear
+2023-01-15,Astoria,1.41,5.43,Cloudy
+2023-01-15,Lower Manhattan,3.59,3.06,Cloudy
+2023-01-15,Hell's Kitchen,6.44,5.23,Cloudy
+2023-01-16,Astoria,7.0,2.51,Cloudy
+2023-01-16,Lower Manhattan,3.73,2.6,Cloudy
+2023-01-16,Hell's Kitchen,-0.06,0.0,Clear
+2023-01-17,Astoria,1.03,0.0,Clear
+2023-01-17,Lower Manhattan,6.2,0.0,Clear
+2023-01-17,Hell's Kitchen,3.87,9.5,Rain
+2023-01-18,Astoria,3.93,6.69,Cloudy
+2023-01-18,Lower Manhattan,2.2,1.97,Clear
+2023-01-18,Hell's Kitchen,2.15,1.3,Clear
+2023-01-19,Astoria,7.52,0.0,Clear
+2023-01-19,Lower Manhattan,6.3,4.19,Cloudy
+2023-01-19,Hell's Kitchen,3.22,0.0,Clear
+2023-01-20,Astoria,5.22,0.35,Clear
+2023-01-20,Lower Manhattan,5.7,3.11,Cloudy
+2023-01-20,Hell's Kitchen,9.81,1.8,Clear
+2023-01-21,Astoria,1.93,3.9,Cloudy
+2023-01-21,Lower Manhattan,5.66,9.8,Rain
+2023-01-21,Hell's Kitchen,7.51,4.78,Cloudy
+2023-01-22,Astoria,9.39,0.0,Clear
+2023-01-22,Lower Manhattan,3.08,0.0,Clear
+2023-01-22,Hell's Kitchen,3.83,0.0,Clear
+2023-01-23,Astoria,6.91,1.89,Clear
+2023-01-23,Lower Manhattan,0.59,0.0,Clear
+2023-01-23,Hell's Kitchen,5.94,7.19,Cloudy
+2023-01-24,Astoria,10.99,17.57,Rain
+2023-01-24,Lower Manhattan,6.24,0.0,Clear
+2023-01-24,Hell's Kitchen,-1.4,4.34,Cloudy
+2023-01-25,Astoria,2.56,0.92,Clear
+2023-01-25,Lower Manhattan,3.16,2.3,Cloudy
+2023-01-25,Hell's Kitchen,8.2,3.79,Cloudy
+2023-01-26,Astoria,4.52,0.0,Clear
+2023-01-26,Lower Manhattan,-0.02,0.57,Clear
+2023-01-26,Hell's Kitchen,4.84,11.84,Rain
+2023-01-27,Astoria,5.39,7.91,Cloudy
+2023-01-27,Lower Manhattan,3.5,0.0,Clear
+2023-01-27,Hell's Kitchen,2.1,0.0,Clear
+2023-01-28,Astoria,11.39,0.0,Clear
+2023-01-28,Lower Manhattan,7.52,0.0,Clear
+2023-01-28,Hell's Kitchen,7.79,4.92,Cloudy
+2023-01-29,Astoria,4.53,2.8,Cloudy
+2023-01-29,Lower Manhattan,3.04,5.23,Cloudy
+2023-01-29,Hell's Kitchen,3.64,0.0,Clear
+2023-01-30,Astoria,1.17,3.86,Cloudy
+2023-01-30,Lower Manhattan,9.74,3.8,Cloudy
+2023-01-30,Hell's Kitchen,4.64,4.43,Cloudy
+2023-01-31,Astoria,8.92,4.1,Cloudy
+2023-01-31,Lower Manhattan,3.77,8.53,Rain
+2023-01-31,Hell's Kitchen,6.29,10.68,Rain
+2023-02-01,Astoria,5.55,0.0,Clear
+2023-02-01,Lower Manhattan,0.9,11.25,Rain
+2023-02-01,Hell's Kitchen,10.17,2.1,Cloudy
+2023-02-02,Astoria,3.85,10.31,Rain
+2023-02-02,Lower Manhattan,1.68,0.0,Clear
+2023-02-02,Hell's Kitchen,6.93,1.03,Clear
+2023-02-03,Astoria,4.98,2.18,Cloudy
+2023-02-03,Lower Manhattan,6.01,10.04,Rain
+2023-02-03,Hell's Kitchen,5.27,6.22,Cloudy
+2023-02-04,Astoria,-1.15,2.76,Cloudy
+2023-02-04,Lower Manhattan,2.47,0.0,Clear
+2023-02-04,Hell's Kitchen,2.37,1.33,Clear
+2023-02-05,Astoria,7.75,0.0,Clear
+2023-02-05,Lower Manhattan,5.09,0.58,Clear
+2023-02-05,Hell's Kitchen,4.02,8.01,Rain
+2023-02-06,Astoria,6.61,9.69,Rain
+2023-02-06,Lower Manhattan,4.54,0.0,Clear
+2023-02-06,Hell's Kitchen,4.33,4.21,Cloudy
+2023-02-07,Astoria,5.53,0.0,Clear
+2023-02-07,Lower Manhattan,5.27,4.14,Cloudy
+2023-02-07,Hell's Kitchen,12.55,12.38,Rain
+2023-02-08,Astoria,2.44,1.56,Clear
+2023-02-08,Lower Manhattan,0.61,0.05,Clear
+2023-02-08,Hell's Kitchen,5.95,9.03,Rain
+2023-02-09,Astoria,2.81,0.0,Clear
+2023-02-09,Lower Manhattan,-1.44,2.19,Cloudy
+2023-02-09,Hell's Kitchen,1.81,0.35,Clear
+2023-02-10,Astoria,2.37,2.53,Cloudy
+2023-02-10,Lower Manhattan,-0.27,0.0,Clear
+2023-02-10,Hell's Kitchen,11.39,0.0,Clear
+2023-02-11,Astoria,1.71,12.18,Rain
+2023-02-11,Lower Manhattan,13.72,0.0,Clear
+2023-02-11,Hell's Kitchen,3.9,4.71,Cloudy
+2023-02-12,Astoria,10.19,0.0,Clear
+2023-02-12,Lower Manhattan,4.26,6.89,Cloudy
+2023-02-12,Hell's Kitchen,6.3,1.12,Clear
+2023-02-13,Astoria,4.6,0.0,Clear
+2023-02-13,Lower Manhattan,4.29,1.67,Clear
+2023-02-13,Hell's Kitchen,5.7,0.22,Clear
+2023-02-14,Astoria,6.41,8.06,Rain
+2023-02-14,Lower Manhattan,5.47,4.76,Cloudy
+2023-02-14,Hell's Kitchen,5.16,3.0,Cloudy
+2023-02-15,Astoria,2.84,4.58,Cloudy
+2023-02-15,Lower Manhattan,4.71,13.47,Rain
+2023-02-15,Hell's Kitchen,9.72,4.93,Cloudy
+2023-02-16,Astoria,2.71,0.0,Clear
+2023-02-16,Lower Manhattan,8.57,4.31,Cloudy
+2023-02-16,Hell's Kitchen,6.44,0.0,Clear
+2023-02-17,Astoria,7.78,5.27,Cloudy
+2023-02-17,Lower Manhattan,1.67,0.64,Clear
+2023-02-17,Hell's Kitchen,5.79,3.26,Cloudy
+2023-02-18,Astoria,4.12,2.48,Cloudy
+2023-02-18,Lower Manhattan,4.24,3.76,Cloudy
+2023-02-18,Hell's Kitchen,9.41,0.0,Clear
+2023-02-19,Astoria,4.29,3.88,Cloudy
+2023-02-19,Lower Manhattan,5.89,1.14,Clear
+2023-02-19,Hell's Kitchen,-0.27,4.64,Cloudy
+2023-02-20,Astoria,10.18,0.0,Clear
+2023-02-20,Lower Manhattan,7.59,1.36,Clear
+2023-02-20,Hell's Kitchen,4.82,0.0,Clear
+2023-02-21,Astoria,4.0,9.5,Rain
+2023-02-21,Lower Manhattan,6.75,11.66,Rain
+2023-02-21,Hell's Kitchen,8.53,5.2,Cloudy
+2023-02-22,Astoria,10.23,5.19,Cloudy
+2023-02-22,Lower Manhattan,7.48,1.52,Clear
+2023-02-22,Hell's Kitchen,5.2,0.0,Clear
+2023-02-23,Astoria,7.97,0.0,Clear
+2023-02-23,Lower Manhattan,7.35,2.05,Cloudy
+2023-02-23,Hell's Kitchen,8.51,6.75,Cloudy
+2023-02-24,Astoria,10.46,6.65,Cloudy
+2023-02-24,Lower Manhattan,0.28,2.67,Cloudy
+2023-02-24,Hell's Kitchen,1.48,0.41,Clear
+2023-02-25,Astoria,9.53,6.19,Cloudy
+2023-02-25,Lower Manhattan,2.9,0.0,Clear
+2023-02-25,Hell's Kitchen,5.1,0.0,Clear
+2023-02-26,Astoria,2.99,4.56,Cloudy
+2023-02-26,Lower Manhattan,8.47,6.04,Cloudy
+2023-02-26,Hell's Kitchen,-1.87,4.52,Cloudy
+2023-02-27,Astoria,5.22,5.07,Cloudy
+2023-02-27,Lower Manhattan,9.85,0.0,Clear
+2023-02-27,Hell's Kitchen,3.23,5.95,Cloudy
+2023-02-28,Astoria,0.26,10.38,Rain
+2023-02-28,Lower Manhattan,6.11,7.23,Cloudy
+2023-02-28,Hell's Kitchen,3.29,7.07,Cloudy
+2023-03-01,Astoria,15.21,4.16,Cloudy
+2023-03-01,Lower Manhattan,12.7,4.35,Cloudy
+2023-03-01,Hell's Kitchen,9.41,2.26,Cloudy
+2023-03-02,Astoria,11.54,4.92,Cloudy
+2023-03-02,Lower Manhattan,15.0,0.0,Clear
+2023-03-02,Hell's Kitchen,11.62,10.41,Rain
+2023-03-03,Astoria,9.77,0.0,Clear
+2023-03-03,Lower Manhattan,12.61,7.22,Cloudy
+2023-03-03,Hell's Kitchen,12.03,9.64,Rain
+2023-03-04,Astoria,14.57,7.21,Cloudy
+2023-03-04,Lower Manhattan,13.66,14.64,Rain
+2023-03-04,Hell's Kitchen,11.38,0.0,Clear
+2023-03-05,Astoria,16.81,0.71,Clear
+2023-03-05,Lower Manhattan,12.32,9.55,Rain
+2023-03-05,Hell's Kitchen,7.19,0.0,Clear
+2023-03-06,Astoria,7.2,0.0,Clear
+2023-03-06,Lower Manhattan,13.32,5.62,Cloudy
+2023-03-06,Hell's Kitchen,12.83,0.0,Clear
+2023-03-07,Astoria,5.07,3.27,Cloudy
+2023-03-07,Lower Manhattan,10.58,5.3,Cloudy
+2023-03-07,Hell's Kitchen,14.11,3.69,Cloudy
+2023-03-08,Astoria,14.28,4.15,Cloudy
+2023-03-08,Lower Manhattan,13.59,0.0,Clear
+2023-03-08,Hell's Kitchen,11.46,3.98,Cloudy
+2023-03-09,Astoria,14.46,1.03,Clear
+2023-03-09,Lower Manhattan,13.56,1.67,Clear
+2023-03-09,Hell's Kitchen,11.65,7.15,Cloudy
+2023-03-10,Astoria,6.02,0.0,Clear
+2023-03-10,Lower Manhattan,7.55,0.0,Clear
+2023-03-10,Hell's Kitchen,9.97,6.75,Cloudy
+2023-03-11,Astoria,11.15,3.99,Cloudy
+2023-03-11,Lower Manhattan,15.27,9.64,Rain
+2023-03-11,Hell's Kitchen,11.79,9.77,Rain
+2023-03-12,Astoria,12.28,0.0,Clear
+2023-03-12,Lower Manhattan,10.22,0.0,Clear
+2023-03-12,Hell's Kitchen,9.34,1.21,Clear
+2023-03-13,Astoria,14.41,11.6,Rain
+2023-03-13,Lower Manhattan,7.85,4.96,Cloudy
+2023-03-13,Hell's Kitchen,8.88,5.37,Cloudy
+2023-03-14,Astoria,11.61,0.0,Clear
+2023-03-14,Lower Manhattan,14.78,0.0,Clear
+2023-03-14,Hell's Kitchen,10.4,0.0,Clear
+2023-03-15,Astoria,10.04,5.14,Cloudy
+2023-03-15,Lower Manhattan,11.43,4.64,Cloudy
+2023-03-15,Hell's Kitchen,13.09,9.6,Rain
+2023-03-16,Astoria,10.97,0.0,Clear
+2023-03-16,Lower Manhattan,15.2,1.34,Clear
+2023-03-16,Hell's Kitchen,15.34,4.92,Cloudy
+2023-03-17,Astoria,11.61,4.74,Cloudy
+2023-03-17,Lower Manhattan,17.85,13.38,Rain
+2023-03-17,Hell's Kitchen,12.21,3.8,Cloudy
+2023-03-18,Astoria,15.23,0.0,Clear
+2023-03-18,Lower Manhattan,13.0,2.87,Cloudy
+2023-03-18,Hell's Kitchen,12.94,0.0,Clear
+2023-03-19,Astoria,7.23,0.0,Clear
+2023-03-19,Lower Manhattan,8.65,0.71,Clear
+2023-03-19,Hell's Kitchen,11.12,12.69,Rain
+2023-03-20,Astoria,15.32,0.0,Clear
+2023-03-20,Lower Manhattan,13.04,0.96,Clear
+2023-03-20,Hell's Kitchen,11.15,3.93,Cloudy
+2023-03-21,Astoria,13.86,1.3,Clear
+2023-03-21,Lower Manhattan,15.19,0.0,Clear
+2023-03-21,Hell's Kitchen,12.02,15.99,Rain
+2023-03-22,Astoria,12.67,10.17,Rain
+2023-03-22,Lower Manhattan,12.27,5.9,Cloudy
+2023-03-22,Hell's Kitchen,11.83,2.15,Cloudy
+2023-03-23,Astoria,9.66,5.15,Cloudy
+2023-03-23,Lower Manhattan,9.45,6.33,Cloudy
+2023-03-23,Hell's Kitchen,15.26,4.83,Cloudy
+2023-03-24,Astoria,11.14,5.27,Cloudy
+2023-03-24,Lower Manhattan,11.07,7.68,Cloudy
+2023-03-24,Hell's Kitchen,6.51,1.32,Clear
+2023-03-25,Astoria,6.03,0.0,Clear
+2023-03-25,Lower Manhattan,16.09,7.48,Cloudy
+2023-03-25,Hell's Kitchen,9.84,0.0,Clear
+2023-03-26,Astoria,3.11,0.28,Clear
+2023-03-26,Lower Manhattan,19.26,5.17,Cloudy
+2023-03-26,Hell's Kitchen,10.32,5.33,Cloudy
+2023-03-27,Astoria,7.32,1.51,Clear
+2023-03-27,Lower Manhattan,12.3,2.57,Cloudy
+2023-03-27,Hell's Kitchen,14.37,4.72,Cloudy
+2023-03-28,Astoria,14.0,0.0,Clear
+2023-03-28,Lower Manhattan,14.69,11.14,Rain
+2023-03-28,Hell's Kitchen,9.09,0.0,Clear
+2023-03-29,Astoria,16.01,2.04,Cloudy
+2023-03-29,Lower Manhattan,16.21,0.79,Clear
+2023-03-29,Hell's Kitchen,16.37,3.66,Cloudy
+2023-03-30,Astoria,12.77,10.82,Rain
+2023-03-30,Lower Manhattan,10.91,0.0,Clear
+2023-03-30,Hell's Kitchen,10.65,5.26,Cloudy
+2023-03-31,Astoria,7.3,6.19,Cloudy
+2023-03-31,Lower Manhattan,10.38,8.74,Rain
+2023-03-31,Hell's Kitchen,4.82,0.0,Clear
+2023-04-01,Astoria,6.94,0.0,Clear
+2023-04-01,Lower Manhattan,12.74,2.1,Cloudy
+2023-04-01,Hell's Kitchen,11.24,2.2,Cloudy
+2023-04-02,Astoria,12.61,0.0,Clear
+2023-04-02,Lower Manhattan,14.12,6.31,Cloudy
+2023-04-02,Hell's Kitchen,13.16,5.78,Cloudy
+2023-04-03,Astoria,12.89,13.18,Rain
+2023-04-03,Lower Manhattan,11.74,1.46,Clear
+2023-04-03,Hell's Kitchen,9.74,0.0,Clear
+2023-04-04,Astoria,8.27,0.0,Clear
+2023-04-04,Lower Manhattan,11.79,4.67,Cloudy
+2023-04-04,Hell's Kitchen,12.15,0.0,Clear
+2023-04-05,Astoria,14.7,6.7,Cloudy
+2023-04-05,Lower Manhattan,11.52,0.0,Clear
+2023-04-05,Hell's Kitchen,13.65,3.94,Cloudy
+2023-04-06,Astoria,7.66,2.66,Cloudy
+2023-04-06,Lower Manhattan,12.79,0.0,Clear
+2023-04-06,Hell's Kitchen,12.57,0.0,Clear
+2023-04-07,Astoria,16.01,9.24,Rain
+2023-04-07,Lower Manhattan,11.24,4.82,Cloudy
+2023-04-07,Hell's Kitchen,4.77,0.0,Clear
+2023-04-08,Astoria,11.12,0.0,Clear
+2023-04-08,Lower Manhattan,14.14,12.99,Rain
+2023-04-08,Hell's Kitchen,8.47,0.0,Clear
+2023-04-09,Astoria,12.71,11.06,Rain
+2023-04-09,Lower Manhattan,8.33,4.25,Cloudy
+2023-04-09,Hell's Kitchen,17.46,0.0,Clear
+2023-04-10,Astoria,8.16,0.88,Clear
+2023-04-10,Lower Manhattan,10.44,7.06,Cloudy
+2023-04-10,Hell's Kitchen,12.72,0.0,Clear
+2023-04-11,Astoria,13.55,0.11,Clear
+2023-04-11,Lower Manhattan,15.82,0.0,Clear
+2023-04-11,Hell's Kitchen,10.09,5.71,Cloudy
+2023-04-12,Astoria,14.29,5.24,Cloudy
+2023-04-12,Lower Manhattan,6.94,5.69,Cloudy
+2023-04-12,Hell's Kitchen,8.9,4.18,Cloudy
+2023-04-13,Astoria,7.73,5.23,Cloudy
+2023-04-13,Lower Manhattan,9.58,0.0,Clear
+2023-04-13,Hell's Kitchen,14.14,4.21,Cloudy
+2023-04-14,Astoria,10.16,10.26,Rain
+2023-04-14,Lower Manhattan,10.68,3.16,Cloudy
+2023-04-14,Hell's Kitchen,12.81,0.0,Clear
+2023-04-15,Astoria,13.41,0.33,Clear
+2023-04-15,Lower Manhattan,10.77,9.81,Rain
+2023-04-15,Hell's Kitchen,8.88,0.0,Clear
+2023-04-16,Astoria,16.83,15.75,Rain
+2023-04-16,Lower Manhattan,10.78,0.0,Clear
+2023-04-16,Hell's Kitchen,11.07,1.57,Clear
+2023-04-17,Astoria,11.43,0.0,Clear
+2023-04-17,Lower Manhattan,13.74,5.62,Cloudy
+2023-04-17,Hell's Kitchen,7.52,6.5,Cloudy
+2023-04-18,Astoria,18.16,3.86,Cloudy
+2023-04-18,Lower Manhattan,10.99,2.29,Cloudy
+2023-04-18,Hell's Kitchen,13.85,0.0,Clear
+2023-04-19,Astoria,12.49,1.05,Clear
+2023-04-19,Lower Manhattan,17.54,2.13,Cloudy
+2023-04-19,Hell's Kitchen,17.0,0.0,Clear
+2023-04-20,Astoria,13.76,4.6,Cloudy
+2023-04-20,Lower Manhattan,9.39,3.89,Cloudy
+2023-04-20,Hell's Kitchen,15.64,1.38,Clear
+2023-04-21,Astoria,6.92,2.91,Cloudy
+2023-04-21,Lower Manhattan,9.29,1.29,Clear
+2023-04-21,Hell's Kitchen,11.76,0.0,Clear
+2023-04-22,Astoria,7.15,5.41,Cloudy
+2023-04-22,Lower Manhattan,10.43,0.0,Clear
+2023-04-22,Hell's Kitchen,14.35,4.36,Cloudy
+2023-04-23,Astoria,9.86,0.0,Clear
+2023-04-23,Lower Manhattan,14.51,4.75,Cloudy
+2023-04-23,Hell's Kitchen,19.15,5.1,Cloudy
+2023-04-24,Astoria,13.16,2.17,Cloudy
+2023-04-24,Lower Manhattan,14.45,6.13,Cloudy
+2023-04-24,Hell's Kitchen,15.76,0.39,Clear
+2023-04-25,Astoria,10.69,0.6,Clear
+2023-04-25,Lower Manhattan,14.37,10.49,Rain
+2023-04-25,Hell's Kitchen,10.62,0.88,Clear
+2023-04-26,Astoria,12.94,1.77,Clear
+2023-04-26,Lower Manhattan,14.86,0.0,Clear
+2023-04-26,Hell's Kitchen,9.52,0.0,Clear
+2023-04-27,Astoria,5.04,0.0,Clear
+2023-04-27,Lower Manhattan,9.25,1.99,Clear
+2023-04-27,Hell's Kitchen,15.34,1.77,Clear
+2023-04-28,Astoria,8.91,2.72,Cloudy
+2023-04-28,Lower Manhattan,15.15,0.0,Clear
+2023-04-28,Hell's Kitchen,9.27,5.79,Cloudy
+2023-04-29,Astoria,11.34,6.24,Cloudy
+2023-04-29,Lower Manhattan,11.96,6.51,Cloudy
+2023-04-29,Hell's Kitchen,8.89,2.94,Cloudy
+2023-04-30,Astoria,11.37,0.0,Clear
+2023-04-30,Lower Manhattan,7.31,6.43,Cloudy
+2023-04-30,Hell's Kitchen,10.95,0.0,Clear
+2023-05-01,Astoria,19.71,8.64,Rain
+2023-05-01,Lower Manhattan,13.16,0.0,Clear
+2023-05-01,Hell's Kitchen,17.23,10.31,Rain
+2023-05-02,Astoria,20.85,6.84,Cloudy
+2023-05-02,Lower Manhattan,16.58,0.0,Clear
+2023-05-02,Hell's Kitchen,21.34,3.29,Cloudy
+2023-05-03,Astoria,21.65,2.06,Cloudy
+2023-05-03,Lower Manhattan,20.83,3.79,Cloudy
+2023-05-03,Hell's Kitchen,22.33,7.04,Cloudy
+2023-05-04,Astoria,15.14,0.0,Clear
+2023-05-04,Lower Manhattan,23.01,8.94,Rain
+2023-05-04,Hell's Kitchen,16.94,0.0,Clear
+2023-05-05,Astoria,20.3,7.65,Cloudy
+2023-05-05,Lower Manhattan,25.39,5.58,Cloudy
+2023-05-05,Hell's Kitchen,18.88,0.0,Clear
+2023-05-06,Astoria,20.03,1.5,Clear
+2023-05-06,Lower Manhattan,16.95,13.24,Rain
+2023-05-06,Hell's Kitchen,25.36,8.68,Rain
+2023-05-07,Astoria,17.24,7.28,Cloudy
+2023-05-07,Lower Manhattan,21.92,5.21,Cloudy
+2023-05-07,Hell's Kitchen,23.75,6.18,Cloudy
+2023-05-08,Astoria,22.22,6.18,Cloudy
+2023-05-08,Lower Manhattan,21.02,0.0,Clear
+2023-05-08,Hell's Kitchen,20.25,0.22,Clear
+2023-05-09,Astoria,16.16,11.41,Rain
+2023-05-09,Lower Manhattan,25.19,9.8,Rain
+2023-05-09,Hell's Kitchen,20.77,9.75,Rain
+2023-05-10,Astoria,20.04,4.01,Cloudy
+2023-05-10,Lower Manhattan,16.72,4.98,Cloudy
+2023-05-10,Hell's Kitchen,20.18,0.0,Clear
+2023-05-11,Astoria,19.85,2.6,Cloudy
+2023-05-11,Lower Manhattan,25.39,7.47,Cloudy
+2023-05-11,Hell's Kitchen,20.03,4.24,Cloudy
+2023-05-12,Astoria,20.13,1.99,Clear
+2023-05-12,Lower Manhattan,16.75,2.24,Cloudy
+2023-05-12,Hell's Kitchen,17.76,0.0,Clear
+2023-05-13,Astoria,21.53,4.96,Cloudy
+2023-05-13,Lower Manhattan,14.64,2.39,Cloudy
+2023-05-13,Hell's Kitchen,22.99,8.3,Rain
+2023-05-14,Astoria,23.08,3.19,Cloudy
+2023-05-14,Lower Manhattan,17.46,0.0,Clear
+2023-05-14,Hell's Kitchen,21.03,4.9,Cloudy
+2023-05-15,Astoria,23.86,8.5,Rain
+2023-05-15,Lower Manhattan,19.6,0.0,Clear
+2023-05-15,Hell's Kitchen,19.04,4.09,Cloudy
+2023-05-16,Astoria,19.39,0.11,Clear
+2023-05-16,Lower Manhattan,20.76,0.48,Clear
+2023-05-16,Hell's Kitchen,18.12,4.56,Cloudy
+2023-05-17,Astoria,18.79,4.22,Cloudy
+2023-05-17,Lower Manhattan,20.82,0.0,Clear
+2023-05-17,Hell's Kitchen,18.56,10.19,Rain
+2023-05-18,Astoria,16.51,0.0,Clear
+2023-05-18,Lower Manhattan,14.41,3.15,Cloudy
+2023-05-18,Hell's Kitchen,20.09,2.41,Cloudy
+2023-05-19,Astoria,23.64,0.0,Clear
+2023-05-19,Lower Manhattan,21.19,10.81,Rain
+2023-05-19,Hell's Kitchen,16.62,1.1,Clear
+2023-05-20,Astoria,17.74,0.0,Clear
+2023-05-20,Lower Manhattan,19.02,10.14,Rain
+2023-05-20,Hell's Kitchen,25.51,1.32,Clear
+2023-05-21,Astoria,25.72,3.18,Cloudy
+2023-05-21,Lower Manhattan,25.26,2.53,Cloudy
+2023-05-21,Hell's Kitchen,20.39,4.83,Cloudy
+2023-05-22,Astoria,29.54,7.26,Cloudy
+2023-05-22,Lower Manhattan,17.88,7.84,Cloudy
+2023-05-22,Hell's Kitchen,18.91,0.55,Clear
+2023-05-23,Astoria,22.73,3.16,Cloudy
+2023-05-23,Lower Manhattan,20.84,3.07,Cloudy
+2023-05-23,Hell's Kitchen,21.01,5.12,Cloudy
+2023-05-24,Astoria,14.19,6.33,Cloudy
+2023-05-24,Lower Manhattan,17.05,0.0,Clear
+2023-05-24,Hell's Kitchen,19.82,3.42,Cloudy
+2023-05-25,Astoria,17.92,7.16,Cloudy
+2023-05-25,Lower Manhattan,15.97,0.97,Clear
+2023-05-25,Hell's Kitchen,18.25,2.77,Cloudy
+2023-05-26,Astoria,20.84,0.0,Clear
+2023-05-26,Lower Manhattan,22.17,3.32,Cloudy
+2023-05-26,Hell's Kitchen,14.32,0.0,Clear
+2023-05-27,Astoria,19.96,1.9,Clear
+2023-05-27,Lower Manhattan,19.69,2.86,Cloudy
+2023-05-27,Hell's Kitchen,20.68,7.74,Cloudy
+2023-05-28,Astoria,16.67,0.0,Clear
+2023-05-28,Lower Manhattan,16.72,4.44,Cloudy
+2023-05-28,Hell's Kitchen,23.73,0.84,Clear
+2023-05-29,Astoria,12.49,0.0,Clear
+2023-05-29,Lower Manhattan,17.5,0.21,Clear
+2023-05-29,Hell's Kitchen,18.77,3.19,Cloudy
+2023-05-30,Astoria,19.06,8.25,Rain
+2023-05-30,Lower Manhattan,17.97,0.0,Clear
+2023-05-30,Hell's Kitchen,21.44,0.0,Clear
+2023-05-31,Astoria,21.17,3.51,Cloudy
+2023-05-31,Lower Manhattan,19.56,10.94,Rain
+2023-05-31,Hell's Kitchen,18.13,13.3,Rain
+2023-06-01,Astoria,19.32,0.0,Clear
+2023-06-01,Lower Manhattan,20.21,0.0,Clear
+2023-06-01,Hell's Kitchen,17.74,4.99,Cloudy
+2023-06-02,Astoria,21.67,0.0,Clear
+2023-06-02,Lower Manhattan,22.96,8.79,Rain
+2023-06-02,Hell's Kitchen,24.31,5.65,Cloudy
+2023-06-03,Astoria,24.09,0.0,Clear
+2023-06-03,Lower Manhattan,19.05,0.0,Clear
+2023-06-03,Hell's Kitchen,20.36,0.14,Clear
+2023-06-04,Astoria,19.5,12.41,Rain
+2023-06-04,Lower Manhattan,19.49,5.07,Cloudy
+2023-06-04,Hell's Kitchen,19.3,3.38,Cloudy
+2023-06-05,Astoria,20.02,5.24,Cloudy
+2023-06-05,Lower Manhattan,23.5,11.24,Rain
+2023-06-05,Hell's Kitchen,20.93,5.95,Cloudy
+2023-06-06,Astoria,16.55,2.56,Cloudy
+2023-06-06,Lower Manhattan,22.82,7.33,Cloudy
+2023-06-06,Hell's Kitchen,20.63,7.43,Cloudy
+2023-06-07,Astoria,21.47,9.0,Rain
+2023-06-07,Lower Manhattan,20.87,1.22,Clear
+2023-06-07,Hell's Kitchen,21.01,0.0,Clear
+2023-06-08,Astoria,21.15,0.0,Clear
+2023-06-08,Lower Manhattan,14.83,5.26,Cloudy
+2023-06-08,Hell's Kitchen,21.43,0.0,Clear
+2023-06-09,Astoria,17.86,9.85,Rain
+2023-06-09,Lower Manhattan,18.55,14.21,Rain
+2023-06-09,Hell's Kitchen,19.99,5.04,Cloudy
+2023-06-10,Astoria,24.85,3.66,Cloudy
+2023-06-10,Lower Manhattan,16.99,2.45,Cloudy
+2023-06-10,Hell's Kitchen,19.89,0.0,Clear
+2023-06-11,Astoria,19.23,0.0,Clear
+2023-06-11,Lower Manhattan,22.77,3.17,Cloudy
+2023-06-11,Hell's Kitchen,19.15,2.47,Cloudy
+2023-06-12,Astoria,20.67,6.08,Cloudy
+2023-06-12,Lower Manhattan,17.0,0.0,Clear
+2023-06-12,Hell's Kitchen,23.31,0.94,Clear
+2023-06-13,Astoria,15.75,5.22,Cloudy
+2023-06-13,Lower Manhattan,21.39,0.0,Clear
+2023-06-13,Hell's Kitchen,20.69,6.68,Cloudy
+2023-06-14,Astoria,21.12,6.16,Cloudy
+2023-06-14,Lower Manhattan,15.79,4.66,Cloudy
+2023-06-14,Hell's Kitchen,19.09,0.59,Clear
+2023-06-15,Astoria,22.61,10.4,Rain
+2023-06-15,Lower Manhattan,25.38,9.57,Rain
+2023-06-15,Hell's Kitchen,19.67,4.76,Cloudy
+2023-06-16,Astoria,22.3,3.61,Cloudy
+2023-06-16,Lower Manhattan,20.39,7.12,Cloudy
+2023-06-16,Hell's Kitchen,19.82,0.0,Clear
+2023-06-17,Astoria,18.76,6.17,Cloudy
+2023-06-17,Lower Manhattan,20.01,4.7,Cloudy
+2023-06-17,Hell's Kitchen,22.01,1.13,Clear
+2023-06-18,Astoria,22.27,4.89,Cloudy
+2023-06-18,Lower Manhattan,16.3,10.21,Rain
+2023-06-18,Hell's Kitchen,18.5,0.0,Clear
+2023-06-19,Astoria,16.86,0.0,Clear
+2023-06-19,Lower Manhattan,20.16,1.63,Clear
+2023-06-19,Hell's Kitchen,18.99,6.1,Cloudy
+2023-06-20,Astoria,21.02,4.58,Cloudy
+2023-06-20,Lower Manhattan,21.23,6.08,Cloudy
+2023-06-20,Hell's Kitchen,13.68,1.18,Clear
+2023-06-21,Astoria,13.46,3.18,Cloudy
+2023-06-21,Lower Manhattan,19.99,8.23,Rain
+2023-06-21,Hell's Kitchen,23.56,4.01,Cloudy
+2023-06-22,Astoria,18.5,5.43,Cloudy
+2023-06-22,Lower Manhattan,18.42,2.99,Cloudy
+2023-06-22,Hell's Kitchen,22.96,0.21,Clear
+2023-06-23,Astoria,22.42,6.39,Cloudy
+2023-06-23,Lower Manhattan,17.14,7.87,Cloudy
+2023-06-23,Hell's Kitchen,22.1,3.51,Cloudy
+2023-06-24,Astoria,17.71,0.0,Clear
+2023-06-24,Lower Manhattan,18.39,5.71,Cloudy
+2023-06-24,Hell's Kitchen,17.13,5.19,Cloudy
+2023-06-25,Astoria,16.27,1.98,Clear
+2023-06-25,Lower Manhattan,20.33,15.23,Rain
+2023-06-25,Hell's Kitchen,15.87,10.36,Rain
+2023-06-26,Astoria,20.45,5.06,Cloudy
+2023-06-26,Lower Manhattan,20.36,5.22,Cloudy
+2023-06-26,Hell's Kitchen,19.54,10.27,Rain
+2023-06-27,Astoria,18.63,8.66,Rain
+2023-06-27,Lower Manhattan,18.07,2.7,Cloudy
+2023-06-27,Hell's Kitchen,16.78,5.28,Cloudy
+2023-06-28,Astoria,24.34,2.61,Cloudy
+2023-06-28,Lower Manhattan,19.41,0.0,Clear
+2023-06-28,Hell's Kitchen,19.31,0.0,Clear
+2023-06-29,Astoria,17.26,4.13,Cloudy
+2023-06-29,Lower Manhattan,23.96,17.05,Rain
+2023-06-29,Hell's Kitchen,18.24,10.18,Rain
+2023-06-30,Astoria,20.73,2.24,Cloudy
+2023-06-30,Lower Manhattan,21.3,3.31,Cloudy
+2023-06-30,Hell's Kitchen,20.33,0.96,Clear
