@@ -542,3 +542,96 @@ date,location,temperature,rainfall_mm,weather_condition
 2023-06-30,Astoria,20.73,2.24,Cloudy
 2023-06-30,Lower Manhattan,21.3,3.31,Cloudy
 2023-06-30,Hell's Kitchen,20.33,0.96,Clear
+2023-07-01,Astoria,15.81,0.0,Clear
+2023-07-01,Lower Manhattan,21.96,1.62,Clear
+2023-07-01,Hell's Kitchen,18.21,3.04,Cloudy
+2023-07-02,Astoria,22.38,3.9,Cloudy
+2023-07-02,Lower Manhattan,18.03,9.13,Rain
+2023-07-02,Hell's Kitchen,24.74,5.47,Cloudy
+2023-07-03,Astoria,22.92,9.21,Rain
+2023-07-03,Lower Manhattan,23.39,6.07,Cloudy
+2023-07-03,Hell's Kitchen,21.8,5.6,Cloudy
+2023-07-04,Astoria,16.71,6.5,Cloudy
+2023-07-04,Lower Manhattan,15.93,0.0,Clear
+2023-07-04,Hell's Kitchen,23.91,7.2,Cloudy
+2023-07-05,Astoria,24.46,1.64,Clear
+2023-07-05,Lower Manhattan,16.54,1.8,Clear
+2023-07-05,Hell's Kitchen,20.31,3.39,Cloudy
+2023-07-06,Astoria,23.4,1.19,Clear
+2023-07-06,Lower Manhattan,21.06,0.0,Clear
+2023-07-06,Hell's Kitchen,21.35,3.02,Cloudy
+2023-07-07,Astoria,17.75,1.82,Clear
+2023-07-07,Lower Manhattan,19.45,1.65,Clear
+2023-07-07,Hell's Kitchen,25.31,2.51,Cloudy
+2023-07-08,Astoria,19.27,0.0,Clear
+2023-07-08,Lower Manhattan,17.32,1.68,Clear
+2023-07-08,Hell's Kitchen,17.94,9.91,Rain
+2023-07-09,Astoria,19.51,9.44,Rain
+2023-07-09,Lower Manhattan,20.19,3.19,Cloudy
+2023-07-09,Hell's Kitchen,19.73,3.02,Cloudy
+2023-07-10,Astoria,25.16,0.0,Clear
+2023-07-10,Lower Manhattan,14.0,0.28,Clear
+2023-07-10,Hell's Kitchen,20.04,6.45,Cloudy
+2023-07-11,Astoria,21.42,1.08,Clear
+2023-07-11,Lower Manhattan,23.06,8.15,Rain
+2023-07-11,Hell's Kitchen,20.55,7.81,Cloudy
+2023-07-12,Astoria,20.82,0.19,Clear
+2023-07-12,Lower Manhattan,22.09,3.55,Cloudy
+2023-07-12,Hell's Kitchen,20.0,10.36,Rain
+2023-07-13,Astoria,12.65,0.0,Clear
+2023-07-13,Lower Manhattan,16.44,1.18,Clear
+2023-07-13,Hell's Kitchen,19.24,0.0,Clear
+2023-07-14,Astoria,17.04,0.0,Clear
+2023-07-14,Lower Manhattan,27.37,12.01,Rain
+2023-07-14,Hell's Kitchen,18.76,1.18,Clear
+2023-07-15,Astoria,16.55,0.0,Clear
+2023-07-15,Lower Manhattan,19.65,0.0,Clear
+2023-07-15,Hell's Kitchen,19.75,0.0,Clear
+2023-07-16,Astoria,17.71,3.74,Cloudy
+2023-07-16,Lower Manhattan,21.1,5.09,Cloudy
+2023-07-16,Hell's Kitchen,16.04,7.27,Cloudy
+2023-07-17,Astoria,17.6,6.16,Cloudy
+2023-07-17,Lower Manhattan,19.97,0.0,Clear
+2023-07-17,Hell's Kitchen,19.05,4.83,Cloudy
+2023-07-18,Astoria,21.84,2.3,Cloudy
+2023-07-18,Lower Manhattan,24.6,8.04,Rain
+2023-07-18,Hell's Kitchen,19.23,6.75,Cloudy
+2023-07-19,Astoria,25.8,12.8,Rain
+2023-07-19,Lower Manhattan,16.32,0.0,Clear
+2023-07-19,Hell's Kitchen,24.45,0.0,Clear
+2023-07-20,Astoria,16.03,0.57,Clear
+2023-07-20,Lower Manhattan,21.26,2.49,Cloudy
+2023-07-20,Hell's Kitchen,18.05,0.0,Clear
+2023-07-21,Astoria,17.86,0.0,Clear
+2023-07-21,Lower Manhattan,26.84,4.49,Cloudy
+2023-07-21,Hell's Kitchen,22.66,0.55,Clear
+2023-07-22,Astoria,19.44,0.0,Clear
+2023-07-22,Lower Manhattan,12.04,0.0,Clear
+2023-07-22,Hell's Kitchen,14.57,0.0,Clear
+2023-07-23,Astoria,16.41,9.62,Rain
+2023-07-23,Lower Manhattan,19.87,9.45,Rain
+2023-07-23,Hell's Kitchen,21.23,6.91,Cloudy
+2023-07-24,Astoria,17.3,5.62,Cloudy
+2023-07-24,Lower Manhattan,22.19,0.12,Clear
+2023-07-24,Hell's Kitchen,21.68,5.83,Cloudy
+2023-07-25,Astoria,18.35,0.0,Clear
+2023-07-25,Lower Manhattan,16.45,3.43,Cloudy
+2023-07-25,Hell's Kitchen,20.98,0.0,Clear
+2023-07-26,Astoria,20.08,5.85,Cloudy
+2023-07-26,Lower Manhattan,21.85,10.76,Rain
+2023-07-26,Hell's Kitchen,23.83,0.0,Clear
+2023-07-27,Astoria,25.05,0.35,Clear
+2023-07-27,Lower Manhattan,23.13,3.34,Cloudy
+2023-07-27,Hell's Kitchen,18.76,0.0,Clear
+2023-07-28,Astoria,19.49,0.0,Clear
+2023-07-28,Lower Manhattan,22.9,10.58,Rain
+2023-07-28,Hell's Kitchen,17.61,4.51,Cloudy
+2023-07-29,Astoria,17.82,0.0,Clear
+2023-07-29,Lower Manhattan,22.32,2.81,Cloudy
+2023-07-29,Hell's Kitchen,25.22,0.59,Clear
+2023-07-30,Astoria,23.0,3.49,Cloudy
+2023-07-30,Lower Manhattan,22.39,0.76,Clear
+2023-07-30,Hell's Kitchen,19.85,2.42,Cloudy
+2023-07-31,Astoria,17.49,6.31,Cloudy
+2023-07-31,Lower Manhattan,21.95,5.97,Cloudy
+2023-07-31,Hell's Kitchen,24.61,10.25,Rain

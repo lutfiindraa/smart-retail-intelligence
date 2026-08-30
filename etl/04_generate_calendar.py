@@ -42,7 +42,7 @@ def main():
 
     calendar = generate_calendar(
         start_date="2023-01-01",
-        end_date="2023-06-30",
+        end_date="2023-07-31",
     )
 
     OUTPUT_DIR.mkdir(

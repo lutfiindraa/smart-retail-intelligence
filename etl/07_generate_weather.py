@@ -18,7 +18,7 @@ def generate_weather() -> pd.DataFrame:
 
     dates = pd.date_range(
         "2023-01-01",
-        "2023-06-30",
+        "2023-07-31",
         freq="D",
     )
 
