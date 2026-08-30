@@ -32,3 +32,5 @@ smart-retail-intelligence/
 - **`api/`**: REST API service backend for model serving and data access.
 - **`dashboard/`**: Interactive dashboard/frontend application for business intelligence.
 - **`tests/`**: Unit and integration test suites.
+
+tes push
