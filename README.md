@@ -21,8 +21,6 @@
 
 ##  Application Showcase
 
-> *Catatan: Letakkan file tangkapan layar dashboard Anda ke dalam direktori `docs/images/` sesuai nama file di bawah ini.*
-
 |  Executive Overview |  Sales Deep Analytics |
 |:---:|:---:|
 | ![Executive Overview](docs/images/01_executive_overview.png)<br><sub>*Executive KPIs, Store Performance, & Revenue Breakdown*</sub> | ![Sales Deep Analytics](docs/images/02_sales_analytics.png)<br><sub>*Monthly Trends, Hourly Heatmaps, & Day-of-Week Patterns*</sub> |
