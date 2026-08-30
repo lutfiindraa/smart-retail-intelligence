@@ -44,23 +44,13 @@ credentials/
 .streamlit/secrets.toml
 
 # ==========================================
-# Data Files (Dataset diizinkan untuk di-push)
-# Catatan: Jika ada file dataset > 100MB di masa mendatang,
-# tambahkan ke sini atau gunakan Git LFS.
+# Data Files & ML Models
 # ==========================================
-# *.zip
-# *.tar.gz
+# Mengizinkan file model di folder ml/models agar dibaca Railway
+!ml/models/*.joblib
+!ml/models/*.pkl
 
-
-# ==========================================
-# Trained ML Models & Weights
-# ==========================================
-ml/models/*
-!ml/models/.gitkeep
-models/*
-!models/.gitkeep
-*.pkl
-*.joblib
+# Mengabaikan file model berukuran besar di tempat lain
 *.pt
 *.pth
 *.onnx
