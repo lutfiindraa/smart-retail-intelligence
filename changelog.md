@@ -5,6 +5,23 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.0] - 2026/08/30 - Lutfi Indra
+
+### Added
+- **MIT License & Legal Documentation:** Penambahan berkas lisensi terbuka resmi [`LICENSE`](LICENSE) (MIT License) serta badge lisensi terintegrasi pada repositori dan dokumentasi proyek.
+- **Application Showcase Asset Hierarchy:** Inisialisasi direktori penampung tangkapan layar antarmuka [`docs/images/`](docs/images/) lengkap dengan file panduan spesifikasi berkas [`docs/images/.gitkeep`](docs/images/.gitkeep).
+
+### Changed
+- **Total Documentation Overhaul ([`README.md`](README.md)):**
+  - Restrukturisasi total dokumentasi proyek menjadi format standar enterprise yang padat, presisi, berbobot informasi tinggi, dan terstruktur rapi.
+  - Pembuatan **Daftar Isi Interaktif (*Clickable Table of Contents*)** dengan tautan langsung (*anchor links*) ke seluruh 14 bab dan sub-bab teknis.
+  - Penyusunan galeri *Application Showcase* berbasis tabel dengan placeholder tangkapan layar untuk 7 modul antarmuka dashboard dan arsitektur sistem.
+  - Integrasi diagram alur interaktif Mermaid (*Analytical Framework*, *Relational ERD*, dan *Cloud Deployment Topology*), formula matematika LaTeX (*Stock Coverage*, *Safety Stock*, *Reorder Quantity*), serta tabel katalog endpoint REST API.
+- **Currency & Metric Formatting Standardization ([`dashboard/app.py`](dashboard/app.py)):**
+  - Standarisasi simbol dan format mata uang menjadi USD (`$`) pada seluruh modul antarmuka Streamlit (kartu metrik KPI, visualisasi grafik Plotly, tabel ringkasan, dan *insight cards*) agar selaras dengan nilai moneter dataset transaksi riil.
+
+---
+
 ## [1.0.0] - 2026/08/30 - Lutfi Indra
 
 ### Added
