@@ -5,6 +5,43 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.0] - 2026/08/30 - Lutfi Indra
+
+### Added
+- **Machine Learning Demand Forecasting & Serving Pipeline:**
+  - Integrasi model machine learning *Random Forest Regressor* (`ml/models/demand_forecast_rf.joblib` & `demand_forecast_features.joblib`) untuk peramalan permintaan produk harian (*daily product demand forecasting*).
+  - Layanan inferensi peramalan cerdas (`api/services/forecast_service.py`): prediksi permintaan *Next-Day* (`predict_next_day`), rolling autoregresif multi-hari (`predict_next_7_days`), ekstraksi fitur kalender, lag demand, dan rolling statistics.
+  - Layanan rekomendasi rantai pasok cerdas (`api/services/inventory_forecast_service.py`): kalkulasi otomatis *Safety Stock* dinamis (buffer 20%), *Recommended Stock*, *Reorder Quantity*, serta klasifikasi tingkat urgensi stok (*Days of Inventory Risk*: Critical, High, Medium, Low, No Demand).
+- **Enterprise Model Serving & Analytics Backend (FastAPI):**
+  - Pembuatan backend REST API berkinerja tinggi terintegrasi PostgreSQL (`api/main.py`, `api/schemas.py`, `api/database.py`).
+  - **Core & Health Endpoints:** `GET /`, `GET /health`.
+  - **Sales & Store Endpoints:** `GET /sales/summary`, `GET /sales/stores`.
+  - **Deep Analytics Endpoints:** `GET /analytics/sales-detail`, `GET /analytics/daily-sales`, `GET /analytics/product-performance`, `GET /analytics/weather-impact`, `GET /analytics/promotions`.
+  - **Customer Intelligence Endpoints:** `GET /customers/{customer_id}/rfm`, `GET /analytics/customer-segments` (kuantil NTILE-5 scoring: Champions, Loyal Customers, Potential, At Risk, Lost/Hibernating).
+  - **Inventory Health Endpoints:** `GET /inventory/recommendations`, `GET /analytics/inventory-health` (monitoring *Days of Stock*, *Stockout Alerts*, dan kuantitas *Restock*).
+  - **Machine Learning Inference Endpoints:** `POST /forecast`, `POST /forecast/7-days`, `POST /inventory/forecast-recommendation`.
+- **Interactive Multi-Page Streamlit Intelligence Platform (`dashboard/app.py`):**
+  - Desain antarmuka modern *Cyber & Dark Premium Glassmorphism Theme* dengan font Google Inter, palet warna HSL kontras tinggi, dan *custom animated UI components*.
+  - **7 Modul Halaman Interaktif Terintegrasi:**
+    - `🏠 Executive Overview`: Metrik KPI eksekutif (Total Revenue, Total Transactions, Total Items Sold, Average Order Value), komparasi pendapatan per toko, dan *Performance Matrix*.
+    - `📊 Sales Deep Analytics`: Analisis tren penjualan harian/mingguan/bulanan, kalender visual heatmap transaksi, Pareto 80/20 breakdown, performa kategori, dan distribusi penjualan.
+    - `👥 Customer Intelligence`: Visualisasi interaktif segmentasi RFM (2D/3D scatter plot, radar chart), demografi pelanggan (usia, gender, kota), dan pencarian profil pelanggan individual.
+    - `📦 Inventory Intelligence`: Pemantauan stok real-time, evaluasi *Days of Stock*, deteksi dini stok kritis/kehabisan stok (*out-of-stock*), dan rekomendasi pemesanan ulang (*reorder*).
+    - `🔮 Demand Forecast`: Peramalan permintaan produk 1 hingga 7 hari ke depan dengan perbandingan aktual vs prediksi dan rekomendasi inventaris berbasis model ML.
+    - `🌦️ Weather & External`: Analisis korelasi dampak parameter cuaca (suhu, curah hujan) terhadap volume dan nilai transaksi toko.
+    - `📋 Data Explorer`: Eksplorasi tabel interaktif data transaksi, produk, pelanggan, promosi, dan inventaris dengan filter dinamis dan fungsi unduh CSV.
+  - Implementasi *caching layer* client-side (`@st.cache_data(ttl=300)`) untuk optimasi latensi data.
+
+### Changed
+- **API & Analytics Integration:** Menghubungkan seluruh visualisasi dashboard langsung ke REST API FastAPI untuk arsitektur terdesentralisasi dan skalabel.
+- **Calendar & Weather Generators:** Memperbarui parameter pembangkitan kalender (`etl/04_generate_calendar.py`) dan cuaca (`etl/07_generate_weather.py`) untuk sinkronisasi fitur waktu pada model *demand forecasting*.
+
+### Fixed
+- **Pipeline Data Leakage Prevention:** Memperbaiki mekanisme lag feature dan rolling window pada layanan inferensi ML agar tidak terjadi *look-ahead bias* saat inferensi masa depan.
+- **Inventory Zero-Demand Edge Cases:** Menangani kondisi pembagian nol (*division-by-zero*) pada perhitungan *Days of Inventory* untuk produk yang tidak memiliki riwayat permintaan terbaru.
+
+---
+
 ## [0.5.0] - 2026/08/29 - Lutfi Indra
 
 ### Added
@@ -38,5 +75,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Timestamp & Datetime Alignment:** Menyelaraskan format `transaction_date` dan `transaction_time` lintas *pipeline* pemrosesan data (Pandas v2.x, PostgreSQL DATE/TIME).
 - **Zero & Negative Stock Outlier Handling:** Memperbaiki anomali stok negatif pada simulasi pergerakan inventaris harian dengan menambahkan pembatas *stockout flag* dan penyesuaian otomatis stok akhir (*floor-zero boundary*).
 
----
-> **Note:** Versi 1.0.0 menandai selesainya fondasi pipeline data (ETL, Database Modeling, Sintesis Data) serta rangkaian Deep Exploratory & Advanced Analytics (Sales KPI, RFM Customer Segmentation, Basket/Cohort Retail Analytics, Time-Series Demand Forecasting, dan Inventory Intelligence). Pengembangan Machine Learning Modeling, Model Serving API (FastAPI), dan Interactive Dashboard (Streamlit/Dash).
+> **Note:** Versi **1.0.0** menandai penyelesaian menyeluruh platform *End-to-End Smart Retail Intelligence*: mulai dari fondasi Data Engineering & ETL PostgreSQL, Deep Retail & Customer Analytics (RFM, Market Basket, Cohort), Time-Series Demand Forecasting Machine Learning Model (*Random Forest*), Model Serving Backend API berkinerja tinggi (*FastAPI*), hingga *Interactive Multi-Page Streamlit Dashboard* bertema premium.
