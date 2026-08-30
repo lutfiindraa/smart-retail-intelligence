@@ -15,10 +15,24 @@ import streamlit as st
 # ║  CONFIG                                                      ║
 # ╚══════════════════════════════════════════════════════════════╝
 
-API_BASE_URL = os.getenv(
-    "API_BASE_URL",
-    "http://127.0.0.1:8000",
-)
+# URL Railway Production sebagai fallback utama jika env/secrets tidak diset
+PRODUCTION_API_URL = "https://smart-retail-intelligence-production.up.railway.app"
+
+# Hierarki Prioritas:
+# 1. OS Environment Variable (Terminal / Docker / System)
+# 2. Streamlit Secrets (.streamlit/secrets.toml atau Streamlit Cloud Secrets)
+# 3. Default Fallback ke Production Railway URL
+if "API_BASE_URL" in os.environ:
+    API_BASE_URL = os.environ["API_BASE_URL"]
+elif hasattr(st, "secrets") and "API_BASE_URL" in st.secrets:
+    API_BASE_URL = st.secrets["API_BASE_URL"]
+elif hasattr(st, "secrets") and "API_URL" in st.secrets:
+    API_BASE_URL = st.secrets["API_URL"]
+else:
+    API_BASE_URL = PRODUCTION_API_URL
+
+# Opsional: Hilangkan trailing slash jika ada typo penulisan URL
+API_BASE_URL = API_BASE_URL.rstrip("/")
 
 st.set_page_config(
     page_title="Smart Retail Intelligence",
