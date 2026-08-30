@@ -438,10 +438,10 @@ def load_promotions():
 
 def fmt_currency(v):
     if abs(v) >= 1_000_000:
-        return f"Rp {v/1_000_000:,.1f}M"
+        return f"${v/1_000_000:,.1f}M"
     if abs(v) >= 1_000:
-        return f"Rp {v/1_000:,.1f}K"
-    return f"Rp {v:,.0f}"
+        return f"${v/1_000:,.1f}K"
+    return f"${v:,.0f}"
 
 
 def fmt_number(v):
@@ -453,7 +453,7 @@ def fmt_number(v):
 
 
 def fmt_full_currency(v):
-    return f"Rp {v:,.2f}"
+    return f"${v:,.2f}"
 
 
 def insight_card(icon, title, body):
@@ -574,7 +574,7 @@ if page == "🏠  Executive Overview":
         fig.update_layout(
             title="Revenue by Store Location",
             showlegend=False,
-            yaxis_title="Revenue (Rp)",
+            yaxis_title="Revenue ($)",
         )
         apply_plotly_theme(fig)
         st.plotly_chart(fig, use_container_width=True)
@@ -613,7 +613,7 @@ if page == "🏠  Executive Overview":
         textposition="outside",
         textfont=dict(color="#94a3b8", size=11),
     ))
-    fig_aov.update_layout(title="AOV by Store", showlegend=False, yaxis_title="AOV (Rp)")
+    fig_aov.update_layout(title="AOV by Store", showlegend=False, yaxis_title="AOV ($)")
     apply_plotly_theme(fig_aov)
     st.plotly_chart(fig_aov, use_container_width=True)
 
@@ -744,7 +744,7 @@ elif page == "📊  Sales Deep Analytics":
         fill="tozeroy",
         fillcolor="rgba(56, 189, 248, 0.08)",
     ))
-    fig.update_layout(title="Monthly Revenue Trend", yaxis_title="Revenue (Rp)")
+    fig.update_layout(title="Monthly Revenue Trend", yaxis_title="Revenue ($)")
     apply_plotly_theme(fig)
     st.plotly_chart(fig, use_container_width=True)
 
@@ -934,7 +934,7 @@ elif page == "📊  Sales Deep Analytics":
         textposition="outside",
         textfont=dict(color="#94a3b8", size=10),
     ))
-    fig_dow.update_layout(title="Revenue by Day of Week", yaxis_title="Revenue (Rp)")
+    fig_dow.update_layout(title="Revenue by Day of Week", yaxis_title="Revenue ($)")
     apply_plotly_theme(fig_dow)
     st.plotly_chart(fig_dow, use_container_width=True)
 
@@ -1076,7 +1076,7 @@ elif page == "👥  Customer Intelligence":
         scene=dict(
             xaxis_title="Recency (days)",
             yaxis_title="Frequency (txn)",
-            zaxis_title="Monetary (Rp)",
+            zaxis_title="Monetary ($)",
             bgcolor="rgba(0,0,0,0)",
         ),
     )
@@ -1594,7 +1594,7 @@ elif page == "🌦️  Weather & External":
         fig_temp.update_layout(
             title="Temperature vs Daily Revenue (per Store)",
             xaxis_title="Temperature (°C)",
-            yaxis_title="Revenue (Rp)",
+            yaxis_title="Revenue ($)",
             height=500,
         )
         apply_plotly_theme(fig_temp)
@@ -1647,7 +1647,7 @@ elif page == "🌦️  Weather & External":
         fig_rain.update_layout(
             title="Rainfall vs Daily Revenue",
             xaxis_title="Rainfall (mm)",
-            yaxis_title="Revenue (Rp)",
+            yaxis_title="Revenue ($)",
         )
         apply_plotly_theme(fig_rain)
         st.plotly_chart(fig_rain, use_container_width=True)
@@ -1690,7 +1690,7 @@ elif page == "🌦️  Weather & External":
     ))
     fig_cond.update_layout(
         title="Average Daily Revenue by Weather Condition",
-        yaxis_title="Avg Revenue (Rp)",
+        yaxis_title="Avg Revenue ($)",
     )
     apply_plotly_theme(fig_cond)
     st.plotly_chart(fig_cond, use_container_width=True)
