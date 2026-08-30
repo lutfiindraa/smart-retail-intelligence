@@ -1,4 +1,4 @@
-# 🧠 Smart Retail Intelligence Platform
+#  Smart Retail Intelligence Platform
 ### *End-to-End Enterprise Analytics, Customer Intelligence, Demand Forecasting & Inventory Optimization Engine*
 
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
@@ -11,32 +11,32 @@
 
 ---
 
-## 🌐 Live Demonstrations & Links
+##  Live Demonstrations & Links
 
-- 🚀 **Interactive Dashboard (Streamlit Cloud):** [smart-retail-intelligenceee.streamlit.app](https://smart-retail-intelligenceee.streamlit.app/)
-- 📖 **Interactive API Docs (FastAPI Swagger):** [smart-retail-intelligence-production.up.railway.app/docs](https://smart-retail-intelligence-production.up.railway.app/docs)
-- 📦 **Source Repository:** [github.com/lutfiindraa/smart-retail-intelligence](https://github.com/lutfiindraa/smart-retail-intelligence)
+-  **Interactive Dashboard (Streamlit Cloud):** [smart-retail-intelligenceee.streamlit.app](https://smart-retail-intelligenceee.streamlit.app/)
+-  **Interactive API Docs (FastAPI Swagger):** [smart-retail-intelligence-production.up.railway.app/docs](https://smart-retail-intelligence-production.up.railway.app/docs)
+-  **Source Repository:** [github.com/lutfiindraa/smart-retail-intelligence](https://github.com/lutfiindraa/smart-retail-intelligence)
 
 ---
 
-## 📸 Application Showcase
+##  Application Showcase
 
 > *Catatan: Letakkan file tangkapan layar dashboard Anda ke dalam direktori `docs/images/` sesuai nama file di bawah ini.*
 
-| 🏠 Executive Overview | 📊 Sales Deep Analytics |
+|  Executive Overview |  Sales Deep Analytics |
 |:---:|:---:|
 | ![Executive Overview](docs/images/01_executive_overview.png)<br><sub>*Executive KPIs, Store Performance, & Revenue Breakdown*</sub> | ![Sales Deep Analytics](docs/images/02_sales_analytics.png)<br><sub>*Monthly Trends, Hourly Heatmaps, & Day-of-Week Patterns*</sub> |
 
-| 👥 Customer Intelligence | 📦 Inventory Intelligence |
+|  Customer Intelligence |  Inventory Intelligence |
 |:---:|:---:|
 | ![Customer Intelligence](docs/images/03_customer_intelligence.png)<br><sub>*3D RFM Segmentation & High-Value Retention Profiling*</sub> | ![Inventory Intelligence](docs/images/04_inventory_intelligence.png)<br><sub>*Stock Coverage, Stockout Risk Matrix, & Critical Alerts*</sub> |
 
-| 🔮 Demand Forecasting | 🌦️ Weather & External Factors |
+|  Demand Forecasting |  Weather & External Factors |
 |:---:|:---:|
 | ![Demand Forecasting](docs/images/05_demand_forecast.png)<br><sub>*Recursive 7-Day ML Prediction & Dynamic Reorder Engine*</sub> | ![Weather Impact](docs/images/06_weather_impact.png)<br><sub>*Environmental Correlation & Promotion Uplift Analysis*</sub> |
 
 <details>
-<summary><b>🔍 Klik untuk melihat Preview Data Explorer</b></summary>
+<summary><b> Klik untuk melihat Preview Data Explorer</b></summary>
 
 | 📋 Interactive Data Explorer |
 |:---:|
@@ -46,7 +46,7 @@
 
 ---
 
-## 📑 Daftar Isi (Table of Contents)
+##  Daftar Isi (Table of Contents)
 
 1. [Ringkasan Eksekutif & Problem Statement](#1-ringkasan-eksekutif--problem-statement)
    - [1.1 Latar Belakang & Tantangan Bisnis](#11-latar-belakang--tantangan-bisnis)
@@ -282,11 +282,11 @@ $$\text{Total Revenue: } \mathbf{\$698,812.33} \quad\vert\quad \text{Transaction
 
 ```
 KONTRIBUSI REVENUE BERDASARKAN KATEGORI:
-├── ☕ Coffee             : 38.63%  ($270,000+)  ─────────┐ 66.74% Pendapatan
-├── 🍵 Tea                : 28.11%  ($196,000+)  ─────────┘ Ditopang oleh Beverage
-├── 🥐 Bakery             : 11.78%  ($82,000+)
-├── 🍫 Drinking Chocolate : 10.36%  ($72,000+)
-└── 📦 Others (5 Cat)     : 11.12%  ($77,000+)
+├──  Coffee             : 38.63%  ($270,000+)  ─────────┐ 66.74% Pendapatan
+├──  Tea                : 28.11%  ($196,000+)  ─────────┘ Ditopang oleh Beverage
+├──  Bakery             : 11.78%  ($82,000+)
+├──  Drinking Chocolate : 10.36%  ($72,000+)
+└──  Others (5 Cat)     : 11.12%  ($77,000+)
 ```
 
 ### 4.3 Temporal Trends & Peak Hours
@@ -441,13 +441,13 @@ Dashboard web dibangun menggunakan Streamlit dengan custom dark-mode theme (*Int
 
 ```
 MODUL INTERAKTIF DASHBOARD:
-├── 🏠 1. Executive Overview       : High-level KPI cards, store comparison, top-revenue products.
-├── 📊 2. Sales Deep Analytics     : Time-series revenue, hourly activity heatmaps, category mix.
-├── 👥 3. Customer Intelligence    : 3D RFM scatter plot, segmen moneter, individual customer lookup.
-├── 📦 4. Inventory Intelligence   : DOI distribution, stockout alert tracker, reorder priority queue.
-├── 🔮 5. Demand Forecast          : Interactive SKU & Store selector, recursive prediction chart & reorder card.
-├── 🌦️ 6. Weather & External       : Analisis korelasi curah hujan, suhu, dan event promosi.
-└── 📋 7. Data Explorer            : Tabular search, multi-column filters, dan instant CSV download.
+├──  1. Executive Overview       : High-level KPI cards, store comparison, top-revenue products.
+├──  2. Sales Deep Analytics     : Time-series revenue, hourly activity heatmaps, category mix.
+├──  3. Customer Intelligence    : 3D RFM scatter plot, segmen moneter, individual customer lookup.
+├──  4. Inventory Intelligence   : DOI distribution, stockout alert tracker, reorder priority queue.
+├──  5. Demand Forecast          : Interactive SKU & Store selector, recursive prediction chart & reorder card.
+├──  6. Weather & External       : Analisis korelasi curah hujan, suhu, dan event promosi.
+└──  7. Data Explorer            : Tabular search, multi-column filters, dan instant CSV download.
 ```
 
 ---
@@ -458,7 +458,7 @@ MODUL INTERAKTIF DASHBOARD:
 
 ```mermaid
 graph TD
-    User([🌐 Public End User]) -->|HTTPS| StreamlitCloud["<b>Streamlit Community Cloud</b><br>Frontend Presentation Layer"]
+    User([ Public End User]) -->|HTTPS| StreamlitCloud["<b>Streamlit Community Cloud</b><br>Frontend Presentation Layer"]
     StreamlitCloud -->|Secure REST Calls| Railway["<b>Railway Cloud Service</b><br>FastAPI Backend & ML Serving Engine"]
     Railway -->|PostgreSQL Protocol| Supabase["<b>Supabase Database</b><br>Managed PostgreSQL Relational Store"]
 ```
@@ -597,13 +597,13 @@ Buka browser Anda pada alamat:
 
 ## 14. Lisensi & Author
 
-### 👤 Author
+###  Author
 **Lutfi Indra**  
 *S1 Informatika — Data Science & AI Engineering Focus*  
-- 🐙 **GitHub:** [@lutfiindraa](https://github.com/lutfiindraa)  
-- 💼 **Project Repository:** [smart-retail-intelligence](https://github.com/lutfiindraa/smart-retail-intelligence)
+-  **GitHub:** [@lutfiindraa](https://github.com/lutfiindraa)  
+-  **Project Repository:** [smart-retail-intelligence](https://github.com/lutfiindraa/smart-retail-intelligence)
 
-### 📄 Lisensi
+###  Lisensi
 Proyek ini dilisensikan di bawah lisensi terbuka [MIT License](LICENSE). Anda bebas menggunakan, memodifikasi, dan mendistribusikan kode ini untuk tujuan pembelajaran maupun komersial.
 
 ---
